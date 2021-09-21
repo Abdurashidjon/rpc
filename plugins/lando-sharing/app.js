@@ -1,0 +1,1 @@
+_.forEach(excludes, exclude => mkdirp.sync(path.join(app.root, exclude)));
